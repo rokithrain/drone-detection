@@ -1,0 +1,14 @@
+# Drone Detection — Python Dependencies
+# Install PyTorch separately (CUDA-specific wheel):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+#
+# Then install the rest:
+#   pip install -r requirements.txt
+
+ultralytics>=8.3.0
+roboflow>=1.1.0
+opencv-python>=4.8.0
+tqdm>=4.65.0
+requests>=2.31.0
+numpy>=1.26.0
+Pillow>=10.0.0
